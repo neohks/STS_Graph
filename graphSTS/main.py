@@ -216,26 +216,3 @@ ax.set_ylabel("Success rate of bridges survived (%)")
 ax.set_title("San Andreas")
 #################################
 plt.show()
-
-# check = table.loc[table.Result == 'Pass' and table.Magnitude == '5.0', 'Places']
-# print(check)
-
-
-# df = df.filter(['Places', 'Magnitude', 'Result'])
-
-# grp_by_Result = table.groupby(by=['Result'])
-# result_count = grp_by_Result.count()
-#
-# # print(result_count)
-#
-# bridge_data_count_series = result_count.iloc[:, 0]
-#
-# # 0 is Fail, 1 is Pass
-# failed = bridge_data_count_series[0]
-# passed = bridge_data_count_series[1]
-# total = bridge_data_count_series[0] + bridge_data_count_series[1]
-#
-# failrate = failed / total * 100
-#
-# print()
-# print(df.groupby('Result').count())
