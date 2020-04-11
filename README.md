@@ -11,8 +11,7 @@ Hayward :
 
 San Andreas :
 
-![Image of SanAndreas graph](https://github.com/neohks/STS_Graph/blob/master/output/SanAndreas.png)
-
+![Image of SanAndreas graph]()
 Highest chance survive bridges :
 ![Image of Bridges graph](https://github.com/neohks/STS_Graph/blob/master/output/HighestSurvBridge.PNG)
 
