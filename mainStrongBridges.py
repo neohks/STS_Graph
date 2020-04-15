@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-table = pd.read_excel('dataset/Dataset_Bridges_2.xlsx')
+table = pd.read_excel('dataset/Dataset_Bridges_Full.xlsx')
 table = table[(table['Result'] != 'Not applicable')]
 
 combinations_bridge = table['Combinations'].unique()
