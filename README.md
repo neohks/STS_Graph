@@ -16,6 +16,8 @@ San Andreas :
 Highest chance survive bridges :
 ![Image of Bridges graph](https://github.com/neohks/STS_Graph/blob/master/output/HighestSurvBridge.PNG)
 
+Highest chance survive bridge types :
+![Image of bridge type graph](https://github.com/neohks/STS_Graph/blob/master/output/HighestSurvBridgeType.PNG)
 
 # Improvement
 - Make a function so it will not look redundant
