@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-table = pd.read_excel('dataset/Dataset_Bridges_2.xlsx')
+table = pd.read_excel('dataset/Dataset_Bridges_Full.xlsx')
 table = table[(table['Result'] != 'Not applicable')]
 magnitudes_earthquake = [5.0, 6.0, 7.0, 7.5] # For now 3 magnitude since other magnitude is fail
 
